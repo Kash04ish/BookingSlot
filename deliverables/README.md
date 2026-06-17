@@ -20,6 +20,7 @@ This folder collects every artifact the brief asks for in one place. The actual 
 - [`test-results.txt`](./test-results.txt) — captured output of `npm test` showing all 17 Vitest cases passing (including the headline overbooking-concurrency test).
 - [`e2e-results.txt`](./e2e-results.txt) — captured output of a 20-case end-to-end suite against the running dev server (real HTTP, fresh DB, concurrent bookings included). 20/20 PASS.
 - [`E2E-NOTES.md`](./E2E-NOTES.md) — what the E2E run tested, the one regression it caught (a missed `page.tsx` write that left the scaffold home page in place), and the fix.
+- [`PITCH.md`](./PITCH.md) — interview pitch script (10 / 20 / 60-second versions) plus answers to the questions an interviewer is likely to ask.
 
 ## Quickest possible review path
 
