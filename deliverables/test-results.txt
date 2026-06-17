@@ -1,0 +1,37 @@
+
+> booking-slot-scaffold@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.9 /Users/kashish/booking-slot
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": SQLite database "test.db" at "file:./prisma/test.db"
+
+The SQLite database "test.db" at "file:./prisma/test.db" was successfully reset.
+
+🚀  Your database is now in sync with your Prisma schema. Done in 2ms
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": SQLite database "test.db" at "file:./prisma/test.db"
+
+The SQLite database "test.db" at "file:./prisma/test.db" was successfully reset.
+
+🚀  Your database is now in sync with your Prisma schema. Done in 3ms
+
+Environment variables loaded from .env
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": SQLite database "test.db" at "file:./prisma/test.db"
+
+The SQLite database "test.db" at "file:./prisma/test.db" was successfully reset.
+
+🚀  Your database is now in sync with your Prisma schema. Done in 3ms
+
+
+ Test Files  3 passed (3)
+      Tests  17 passed (17)
+   Start at  23:44:57
+   Duration  1.92s (transform 41ms, setup 28ms, import 138ms, tests 1.40s, environment 0ms)
+
