@@ -17,7 +17,9 @@ This folder collects every artifact the brief asks for in one place. The actual 
 - [`AI-USAGE-NOTE.md`](./AI-USAGE-NOTE.md) — the standalone 2-paragraph note on AI tools, their value, and what I had to push back on.
 - [`FEATURE-CHECKLIST.md`](./FEATURE-CHECKLIST.md) — a 1:1 mapping of every brief requirement to the file and function that implements it.
 - [`SELF-EVALUATION.md`](./SELF-EVALUATION.md) — an honest self-rating against the six evaluation criteria, with the weak spots called out.
-- [`test-results.txt`](./test-results.txt) — captured output of `npm test` showing all 17 tests passing (including the headline overbooking-concurrency test).
+- [`test-results.txt`](./test-results.txt) — captured output of `npm test` showing all 17 Vitest cases passing (including the headline overbooking-concurrency test).
+- [`e2e-results.txt`](./e2e-results.txt) — captured output of a 20-case end-to-end suite against the running dev server (real HTTP, fresh DB, concurrent bookings included). 20/20 PASS.
+- [`E2E-NOTES.md`](./E2E-NOTES.md) — what the E2E run tested, the one regression it caught (a missed `page.tsx` write that left the scaffold home page in place), and the fix.
 
 ## Quickest possible review path
 

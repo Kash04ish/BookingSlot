@@ -1,0 +1,25 @@
+concurrency target: cmqieglxg000ap9h48ygtsr4w
+
+==================================
+PASS  homepage renders app title  (yes)
+PASS  homepage shows suggest button  (yes)
+PASS  GET /api/slots returns >=50 slots  (yes)
+PASS  next-available returns slot id  (yes)
+PASS  POST valid booking  (201)
+PASS  response has booking.id  (yes)
+PASS  POST invalid email → 400  (400)
+PASS  error.code on invalid email  (INVALID_INPUT)
+PASS  POST empty name → 400  (400)
+PASS  POST unknown slot → 404  (404)
+PASS  error.code on unknown slot  (SLOT_NOT_FOUND)
+PASS  bookedCount incremented after POST  (1)
+PASS  concurrent: exactly 5 succeeded (201)  (5)
+PASS  concurrent: exactly 7 rejected (409)  (7)
+PASS  DB shows exactly 5 bookings on the slot  (5)
+PASS  slot is now isFull  (yes)
+PASS  POST to full slot → 409  (409)
+PASS  error.code is SLOT_FULL  (SLOT_FULL)
+PASS  GET /api/bookings?email returns >=1  (yes)
+PASS  next-available skips the full slot  (yes)
+==================================
+Total: 20   PASS: 20   FAIL: 0
